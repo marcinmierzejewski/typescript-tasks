@@ -1,0 +1,11 @@
+{
+  "name": "marcin",
+  "version": "1.0.0",
+  "description": "tsc tutorial",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

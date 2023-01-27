@@ -1,0 +1,68 @@
+.form {
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.inputLabel {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.inputTask {
+  padding: 5px;
+  font-size: 24px;
+}
+
+.categories {
+  list-style: none;
+  padding: 0;
+}
+
+.categories > li {
+  font-size: 20px;
+  padding: 5px;
+}
+
+#addBtn {
+  padding: 10px 5px;
+  width: 150px;
+  margin: 0 auto;
+  border: none;
+  background-color: #ffe4c4;
+  cursor: pointer;
+}
+
+#addBtn:hover {
+  background-color: #fcce97;
+}
+
+.myTasks {
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding: 5px;
+  border-top: 2px solid #ffe4c4;
+  border-bottom: 2px solid #ffe4c4;
+}
+
+#taskList {
+  padding: 5px;
+  font-size: 22px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.gym {
+  color: red;
+}
+
+.work {
+  color: green;
+}
+
+.hobby {
+  color: blue;
+}
